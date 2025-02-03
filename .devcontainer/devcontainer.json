@@ -1,0 +1,10 @@
+{
+    "name": "Hyperledger Fabric",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+      "docker-in-docker": "latest",
+      "node": "lts",
+      "go": "latest"
+    },
+    "postCreateCommand": "npm install -g @hyperledger/caliper-cli"
+  }
